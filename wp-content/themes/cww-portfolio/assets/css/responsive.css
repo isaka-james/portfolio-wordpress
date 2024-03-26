@@ -1,0 +1,283 @@
+button#mob-toggle-menu-button {
+    display: none;
+}
+@media only screen and (max-width: 1366px){
+  section.cww-main-banner .container{
+    padding-top: 165px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .container{
+    padding: 0 20px;
+  }
+  
+  section.cww-main-banner .content-wrapp h2{
+    font-size: 66px
+  }
+  section.cww-main-banner .bottom-style{
+    bottom: -75px;
+    right: -138px;
+  }
+  section.cww-main-banner .bottom-style svg {
+    height: 260px;
+    width: 260px;
+}
+section.cww-main-banner .social-icon-wrapp{
+  left: 25px;
+}
+
+  section.cww-main-banner .animated-bg {
+      left: 90px;
+      width: 40%;
+      height: 55%
+    }
+
+    .cww-about-section .container{
+      gap: 85px;
+    }
+    .counter-wrapp.cww-flex{
+      gap: 5%;
+    }
+    .count-item-wrapp{
+        flex: 1 1 45%;
+    }
+
+    .cww-contact-section .contact-wrapp.cww-flex .address-wrap{
+      margin-left: 3%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+  header.site-header{
+    position: relative;
+    
+  }
+  
+/* ============= Toggle Button =================== */
+button#mob-toggle-menu-button {
+    display: block;
+}
+.button.is-text {
+  background-color: transparent;
+  border: 0;
+}
+.button-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#mob-toggle-menu-button {
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-night-dark);
+  transition: background-color 2s ease;
+}
+/* Menu toggle button */
+.icon {
+    line-height: 0;
+}
+.menu-icon {
+  text-align: right;
+  width: 27px;
+}
+.menu-icon::after, .menu-icon::before {
+  background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 27px;
+  margin: 3px 0;
+  transition-duration: 0.5s;
+}
+.menu-icon::before {
+  width: 27px;
+}
+.menu-icon::after {
+  width: 18px;
+}
+#mob-toggle-menu-button:hover .menu-icon::before {
+  width: 18px;
+  transition-duration: 0.5s;
+}
+#mob-toggle-menu-button:hover .menu-icon::after{
+  width: 27px;
+  transition-duration: 0.5s;
+}
+#mob-toggle-menu-button.is-opened {
+  background-color: var(--theme-color)
+}
+#mob-toggle-menu-button.is-opened .menu-icon::before {
+  transform: rotateZ(135deg) translate(3px, -3px);
+  width: 27px;
+}
+#mob-toggle-menu-button.is-opened .menu-icon::after {
+  transform: rotateZ(-135deg) translate(3px, 3px);
+  width: 27px;
+}
+/* ===================== Menu show hide =================*/
+.cww-menu-outer-wrapp {
+  top: -1500px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.main-navigation{
+  width: 100%;
+}
+.main-navigation a{
+  padding: 20px 19px;
+}
+header.site-header.is-opened .cww-menu-outer-wrapp{
+  visibility: visible;
+  opacity: 1;
+}
+.cww-menu-outer-wrapp.cww-flex {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    background: #fff !important;
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+    padding: 5px 20px;
+    display: block;
+    transition: all 0.3s;
+}
+.cww-nav-container ul li {
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: left;
+}
+
+/* =============== Main Banner ========================= */
+section.cww-main-banner .container{
+  justify-content: center;
+}
+section.cww-main-banner .content-wrapp {
+    flex: 1 1 59%;
+    background: rgb(255 255 255 / 68%);
+    z-index: 1;
+    padding: 48px 137px;
+}
+section.cww-main-banner{
+  height: 70vh;
+}
+section.cww-main-banner .bottom-style{
+  bottom: -145px !important;
+}
+section.cww-main-banner .button-wrapp {
+    margin-top: 20px;
+}
+section.cww-main-banner .img-wrapp{
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+section.cww-main-banner .content-wrapp h2 {
+    font-size: 45px;
+}
+section.cww-main-banner .animated-bg{
+  width: 60%;
+}
+
+li.blocks-gallery-item {
+    flex: 1 1 33.33%;
+}
+
+/*  */
+.cww-about-section .container{
+    flex-wrap: wrap;
+}
+
+/*  */
+.cww-contact-section .contact-wrapp.cww-flex .address-wrap{
+  flex: 1 1 40%;
+  margin-top: 25px
+}
+
+}
+
+
+@media only screen and (max-width: 645px){
+  section.cww-main-banner .content-wrapp{
+    padding: 35px 55px;
+  }
+
+}
+
+@media only screen and (max-width: 585px){
+  section.cww-main-banner {
+    height: 70vh;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px){
+  section.cww-main-banner{
+    height: 60vh
+  }
+  section.cww-main-banner .content-wrapp {
+      padding: 25px 20px;
+  }
+
+  .site-branding {
+    flex: 1 1 50%;
+  }
+
+  
+  
+
+.count-item-wrapp:last-child{
+  margin-top: 25px;
+}
+.cww-service-section .service-wrapper-outer .service-wrapp{
+  padding: 0;
+}
+
+.blog-outer-wrapp:not(:first-child) {
+    margin-top: 35px;
+}
+
+.site-info.cww-flex{
+    justify-content: center;
+  }
+  li.blocks-gallery-item {
+    flex: 1 1 50%;
+  }
+}
+
+@media only screen and (max-width: 425px){
+
+  .cww-contact-section .form-wrapp, .cww-contact-section .address-wrap{
+    padding: 30px 15px;
+  }
+
+}
+
+@media only screen and (max-width: 414px){
+
+  section.cww-main-banner .content-wrapp {
+    padding: 15px 17px;
+  }
+  section.cww-main-banner .content-wrapp h2 {
+    font-size: 35px;
+  }
+  section.cww-main-banner .content-wrapp h5 {
+    font-size: 18px;
+  }
+  .header-cta-wrapp a, .cww-main-banner .btn-primary a, .cww-cta-section .btn-wrapper a, .error-404 .button-wrapp a {
+    padding: 9px 18px;
+  }
+ /* section.cww-main-banner .social-icon-wrapp {
+    top: 145px;
+  }*/
+}
+

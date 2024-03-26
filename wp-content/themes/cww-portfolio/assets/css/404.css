@@ -1,0 +1,22 @@
+/* 404 page*/
+section.error-404.not-found {
+    text-align: center;
+    padding: 100px 0;
+    height: 80vh;
+}
+.error-404 .button-wrapp {
+    display: inline-block;
+}
+section.error-404 header.page-header h1{
+    font-size: 142px;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 400;
+}
+section.error-404 .page-content{
+	margin: 0;
+}
+section.error-404 .page-content p {
+    font-size: 24px;
+    color: #927676;
+}

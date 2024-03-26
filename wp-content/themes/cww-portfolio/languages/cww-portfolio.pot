@@ -1,0 +1,537 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CWW Portfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-10 15:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: cww-portfolio"
+
+#: inc/welcome/functions.php:25
+msgid " This plugin adds extra features on your theme"
+msgstr ""
+
+#. 1: comments count.
+#: inc/template-tags.php:176
+#, php-format
+msgid "%1$s Comments"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/welcome/tabs/getting-started.php:5
+msgid "1. Install the recommended plugins"
+msgstr ""
+
+#: inc/welcome/tabs/getting-started.php:57
+msgid "3. Enjoy! :)"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:37
+msgid "About Me"
+msgstr ""
+
+#: inc/welcome/functions.php:27 inc/welcome/functions.php:38
+#: inc/welcome/functions.php:48 inc/welcome/tabs/demo-import.php:20
+msgid "Activate"
+msgstr ""
+
+#: inc/welcome/functions.php:58
+msgid "Activate CWW Companion"
+msgstr ""
+
+#: inc/customizer/controllers/plugin-notice/plugin-notice.php:54
+msgid "Activate now"
+msgstr ""
+
+#: inc/customizer/homepage-settings/blog-settings.php:54
+msgid "Add excerpts for blog or leave blank to hide excerpt"
+msgstr ""
+
+#: inc/customizer/social-icons.php:33
+msgid "Add url for your social media page"
+msgstr ""
+
+#: functions.php:132
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer/header-settings.php:136
+msgid "Additional Options"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:29
+msgid "based in Los Angeles, USA"
+msgstr ""
+
+#: inc/customizer/homepage-settings/blog-settings.php:53
+msgid "Blog Excerpts"
+msgstr ""
+
+#: inc/customizer/homepage-settings/blog-settings.php:7
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer/header-settings.php:115
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/header-settings.php:75
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/header-settings.php:93
+msgid "Button URL"
+msgstr ""
+
+#. Author of the theme
+msgid "Code Work Web"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer/customizer-defaults.php:41
+msgid "Completed projects"
+msgstr ""
+
+#: inc/welcome/functions.php:34
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:32
+msgid "Contact Me"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:14
+msgid "Contact Now"
+msgstr ""
+
+#: template-parts/content-blog.php:45 inc/hooks/homepage-hooks.php:389
+msgid "Continue Reading"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-post.php:42 template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/welcome/tabs/getting-started.php:56
+msgid "Customize"
+msgstr ""
+
+#: inc/welcome/functions.php:24
+msgid "CWW Companion"
+msgstr ""
+
+#. Name of the template
+msgid "CWW Home - Customizer"
+msgstr ""
+
+#. Name of the theme
+msgid "CWW Portfolio"
+msgstr ""
+
+#: inc/welcome/functions.php:127
+msgid "CWW Portfolio Info"
+msgstr ""
+
+#: inc/welcome/theme-info.php:8
+msgid "Demo Import"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/social-icons.php:17
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:22
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:9
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/homepage-settings/banner-settings.php:28
+#: inc/customizer/homepage-settings/banner-settings.php:38
+msgid "Front Page content"
+msgstr ""
+
+#: inc/welcome/tabs/getting-started.php:4
+msgid "Get Started in 3 Easy Steps"
+msgstr ""
+
+#: inc/welcome/theme-info.php:4
+msgid "Getting started"
+msgstr ""
+
+#: inc/welcome/tabs/demo-import.php:33
+msgid "Go To Demo Import Page"
+msgstr ""
+
+#: 404.php:27
+msgid "Go To Home"
+msgstr ""
+
+#: inc/customizer/header-settings.php:161
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/header-settings.php:27
+msgid "Header Button Settings"
+msgstr ""
+
+#: inc/customizer/header-settings.php:9
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:27
+msgid "Hi There, I'm"
+msgstr ""
+
+#: inc/customizer/homepage-settings/banner-settings.php:11
+msgid "Homepage Options"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://codeworkweb.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://codeworkweb.com/themes/cww-portfolio"
+msgstr ""
+
+#: inc/hooks/footer-hooks.php:23
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/welcome/tabs/demo-import.php:2
+msgid "Import Demo sites with one click"
+msgstr ""
+
+#: inc/welcome/functions.php:46
+msgid "Imports theme demo with few clicks."
+msgstr ""
+
+#: inc/customizer/social-icons.php:18
+msgid "Instagram"
+msgstr ""
+
+#: inc/welcome/functions.php:30 inc/welcome/functions.php:41
+#: inc/welcome/functions.php:51 inc/welcome/tabs/demo-import.php:24
+msgid "Install"
+msgstr ""
+
+#: inc/welcome/functions.php:61
+msgid "Install CWW Companion"
+msgstr ""
+
+#: inc/customizer/controllers/plugin-notice/plugin-notice.php:57
+msgid "Install now"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:28
+msgid "John Doe"
+msgstr ""
+
+#: functions.php:150
+msgctxt "Jost font: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/welcome/active-notice.php:24
+msgid "Let's Get Started"
+msgstr ""
+
+#: inc/customizer/social-icons.php:20
+msgid "LinkedIn"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/customizer/homepage-settings/banner-settings.php:17
+msgid "Main Banner"
+msgstr ""
+
+#: inc/welcome/active-notice.php:42
+msgid "Maybe later"
+msgstr ""
+
+#: inc/customizer/header-settings.php:178
+msgid "Menu Link Color"
+msgstr ""
+
+#: inc/customizer/header-settings.php:195
+msgid "Menu Link Color:Hover"
+msgstr ""
+
+#: single.php:28
+msgid "Next:"
+msgstr ""
+
+#: inc/template-tags.php:181
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/welcome/functions.php:45 inc/welcome/tabs/demo-import.php:13
+msgid "One Click Demo Import"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops!"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:48
+msgid "Our Portfolio"
+msgstr ""
+
+#: template-parts/content-blog.php:38 template-parts/content-page.php:25
+#: template-parts/content-post.php:53 template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/controllers/plugin-notice/plugin-notice.php:47
+msgid ""
+"Please Install the CWW Companion Plugin to Enable All the Theme Features"
+msgstr ""
+
+#: inc/welcome/tabs/demo-import.php:14
+msgid ""
+"Please make sure to activate all the recommended plugins to make demo work "
+"correctly."
+msgstr ""
+
+#: inc/welcome/tabs/getting-started.php:39
+msgid "Plugin is installed and active."
+msgstr ""
+
+#: functions.php:151
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/homepage-settings/portfolio-settings.php:7
+msgid "Portfolio Section"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:43
+msgid "Positive reviews"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/customizer/controllers/plugin-notice/plugin-notice.php:38
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: single.php:27
+msgid "Previous:"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: inc/hooks/footer-hooks.php:26
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/homepage-settings/blog-settings.php:38
+#: inc/customizer/homepage-settings/portfolio-settings.php:40
+msgid "Section Subitle"
+msgstr ""
+
+#: inc/customizer/homepage-settings/blog-settings.php:22
+#: inc/customizer/homepage-settings/portfolio-settings.php:23
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/homepage-settings/portfolio-settings.php:56
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/homepage-settings/portfolio-settings.php:57
+msgid "Select page with gallery"
+msgstr ""
+
+#: inc/customizer/header-settings.php:50
+msgid "Show Button"
+msgstr ""
+
+#: inc/customizer/header-settings.php:51
+msgid "Show or hide button on header"
+msgstr ""
+
+#: functions.php:130
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/social-icons.php:9
+msgid "Social Icons"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/welcome/companion.php:53
+msgid "Sorry, you are not allowed to manage options for this site."
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/welcome/active-notice.php:11
+#, php-format
+msgid "Thank you for installing %s"
+msgstr ""
+
+#: inc/welcome/theme-info.php:23
+msgid "Thanks for choosing CWW Portfolio!"
+msgstr ""
+
+#: 404.php:23
+msgid "That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/welcome/functions.php:35
+msgid "The Contact Form for easily adding forms."
+msgstr ""
+
+#: inc/customizer/customizer.php:57
+msgid "Theme Color"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: inc/hooks/footer-hooks.php:33
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/welcome/active-notice.php:47
+msgid "This action will install the CWW Companion plugin"
+msgstr ""
+
+#: inc/customizer/homepage-settings/banner-settings.php:12
+msgid "This allows to edit general theme settings"
+msgstr ""
+
+#: inc/welcome/functions.php:59
+msgid "This feature requires the CWW Companion plugin to be activated."
+msgstr ""
+
+#: inc/welcome/functions.php:62
+msgid "This feature requires the CWW Companion plugin to be installed."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"This is useful theme for personal portfolio sites to pubish your personal "
+"websites in an style with easy configuration options."
+msgstr ""
+
+#: inc/customizer/social-icons.php:19
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:30
+msgid "View My Works"
+msgstr ""
+
+#: inc/welcome/active-notice.php:33
+msgid "View Welcome Page"
+msgstr ""
+
+#: inc/welcome/theme-info.php:24
+msgid ""
+"We're glad you chose our theme and we hope it will help you create a "
+"beautiful site in no time!<br> If you have any suggestions, don't hesitate "
+"to leave us some feedback."
+msgstr ""
+
+#: inc/customizer/customizer-defaults.php:46
+msgid "What We Offer"
+msgstr ""

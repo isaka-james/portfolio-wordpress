@@ -1,0 +1,28 @@
+:root {
+	--container-width: 800px;
+	--container-width-wide: 1200px;
+	--font-family: 'Muli', sans-serif;
+    --content-font-family: 'Lora', serif;
+    --theme-color: #ff3d4f;
+	--color-night-dark: #323648;
+    --color-dark-light: #555;
+    --color-white: #fff;
+	--font-size: 16px;
+	--font-size-sm: 14px;
+	--font-size-md: 18px;
+	--font-weight-bold: 600;
+    --color-primary: #d90a2c; /* red color */
+}
+
+:root {
+    --dark-color: #11204d;
+    --grey-bg-color: #494949;
+    --darkgrey-bg-color: #282828;
+    --bg-color: #1A1A1A;
+    --dark-bg-color: #131313;
+    --txt-color: #CACACA;
+    --link-txt-color: #ffffff;
+    --meta-txt-color: #8B8B8B;
+    --border-color: #303030;
+    --background-color: #1a1a1a;
+}

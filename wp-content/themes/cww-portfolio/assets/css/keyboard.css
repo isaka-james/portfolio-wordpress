@@ -1,0 +1,76 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	border-color: #ccc #bbb #aaa;
+}
+button:focus,
+input[type="button"]:focus, 
+input[type="reset"]:focus, 
+input[type="submit"]:focus{
+	background-color: var(--dark-color);
+	cursor: pointer;
+	
+}
+.main-navigation ul ul li:focus-within > ul{
+	display: block;
+	left: auto;
+}
+
+
+.main-navigation ul li:focus-within > ul{
+	left: auto;
+}
+.main-navigation .sub-menu li.menu-item-has-children:focus-within .sub-menu{
+    left: 257px;
+}
+.main-navigation li a:focus:after{
+	width: 30px
+}
+.header-cta-wrapp a:focus,
+.cww-main-banner .btn-primary a:focus,
+.cww-cta-section .btn-wrapper a:focus,
+.error-404 .button-wrapp a:focus{
+	color: #FFF;
+}
+.header-cta-wrapp a:focus:before,
+.cww-main-banner .btn-primary a:focus:before,
+.cww-cta-section .btn-wrapper a:focus:before,
+.error-404 .button-wrapp a:focus:before {
+    width: 100%;
+}
+section.cww-main-banner .social-icon-wrapp a:focus{
+	background: #333;
+	color: #FFF;
+}
+.cww-service-section .service-wrapper-outer .service-inner-wrapp:focus .counter {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+        transform: scale(2);
+    top: 30px;
+    right: 30px;
+}
+
+.cww-service-section .service-wrapper-outer .service-inner-wrapp:focus:before {
+    border-radius: 12px;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+        transform: scaleY(1);
+}
+.cww-portfolio-section figure a:focus img {
+    -webkit-transform: scale(1.05) rotate(-.5deg);
+    -moz-transform: scale(1.05) rotate(-.5deg);
+    -ms-transform: scale(1.05) rotate(-.5deg);
+    -o-transform: scale(1.05) rotate(-.5deg);
+    transform: scale(1.05) rotate(-.5deg);
+}
+.read-more-link a:focus:before{
+	width: 100%;
+}
+.cww-blog-section .img-wrapp a.post-thumbnail:focus img {
+    -webkit-transform: scale(1.05) rotate(-.5deg);
+    -moz-transform: scale(1.05) rotate(-.5deg);
+    -ms-transform: scale(1.05) rotate(-.5deg);
+    -o-transform: scale(1.05) rotate(-.5deg);
+    transform: scale(1.05) rotate(-.5deg);
+}

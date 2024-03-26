@@ -1,0 +1,203 @@
+/*
+Theme Name: Smart Portfolio
+Theme URI: https://codeworkweb.com/wordpress-themes/smart-portfolio/
+Template: cww-portfolio
+Text Domain: smart-portfolio
+Author: Code Work Web
+Author URI: https://codeworkweb.com/
+Description: This is the child theme of CWW Portfolio. This theme is fully compatible with the popular WordPress page builder Elementor. This is a useful theme for personal portfolio sites to publish your personal websites in a style with easy configuration options. Get free support at https://codeworkweb.com/contact/  and Check demo at https://demo.codeworkweb.com/cww-portfolio/
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready,sticky-post, rtl-language-support, blog, custom-colors, portfolio
+Version: 1.0.2
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+CWW Portfolio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+
+*/
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+}
+
+section.cww-main-banner{
+    background: rgba(108,85,224, 0.1);
+    height: 87vh;
+}
+.cww-contact-section{
+    background: rgba(108,85,224, 0.1);
+}
+.cww-portfolio-section{
+	background: rgba(108,85,224, 0.1);
+}
+section.cww-main-banner .animated-bg{
+	background: #54CFD4;
+}
+.count-item-wrapp{
+	border-color:#54CFD4;
+	background-color: rgba(108,85,224, 0.1);
+}
+.icon-wrapp svg {
+    height: 650px;
+    width: 650px;
+}
+
+section.cww-main-banner .container{
+	display: block;
+}
+/*  */
+section.cww-main-banner .container{
+	padding: 0;
+	    justify-content: space-between;
+}
+.shape-wrapper svg {
+    width: 640px;
+        will-change: border-radius, transform, opacity;
+    animation: bganimeUltimate 5s linear infinite;
+    display: block;
+    -webkit-animation: bganimeUltimate 5s linear infinite;
+}
+.shape-wrapper svg path{
+	fill: var(--theme-color);
+}
+.svg-image-main{
+	width: 130px;
+}
+
+.header-cta-wrapp a, .cww-main-banner .btn-primary a, .cww-cta-section .btn-wrapper a, .error-404 .button-wrapp a {
+    -webkit-box-shadow: 0px 8px 5px 0px rgb(0 0 0 / 10%);
+            box-shadow: 0px 8px 5px 0px rgb(0 0 0 / 10%);
+}
+
+/* Header Style */
+header.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 255px;
+    height: 100vh;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 30px;
+    background: #040b14;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.site-branding a,
+p.site-title, 
+p.site-description{
+    color: #fff;
+}
+.main-navigation a{
+    color: #a8a9b4;
+    margin-bottom: 15px;
+}
+.main-navigation a:hover{
+    color: #fff;
+}
+.cww-nav-container ul li {
+    display: block;
+    text-align: left;
+}
+.menu-wrapp {
+    margin-top: 25px;
+}
+.admin-bar .site-branding{
+    margin-top: 50px;
+}
+.site-branding {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icon-wrapp {
+    margin-top: 20px;
+    text-align: center;
+}
+header.site-header .social-icon-wrapp a {
+    color: #fff;
+    display: inline-block;
+    background: #333;
+    text-decoration: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 5px;
+}
+.main-navigation .menu-item i._mi {
+    padding-right: 5px;
+}
+.site-info {
+    text-align: center;
+}
+/**/
+.elementor-image-gallery .gallery-item {
+    max-width: 100% !important;
+}
+
+/* Contact Form */
+
+.cww-contact-form form input,
+.cww-contact-form form textarea{
+    border: 0;
+    border-bottom: 1px solid #b0b0b0;
+    border-radius: 0;
+    font-size: 14px;
+    padding-left: 0;
+}
+.cww-contact-form form textarea{
+    height: 60PX;
+}
+.cww-contact-form form input.wpcf7-submit {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+.site-branding a.custom-logo-link{
+    margin-bottom: 15px;
+}
+.site-branding a.custom-logo-link img {
+    border-radius: 50%;
+    border: 4px solid var(--theme-color);
+    object-fit: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.cww-nav-container {
+    padding: 0 15px;
+}
+
+.main-navigation ul ul{
+    background: #353535;
+    padding: 10px 15px;
+}
+.cww-main-nav ul li {
+    display: block;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul{
+    top: 28px;
+    left: 45px;
+    background: #25232d;
+}
+
+.cww-site-content{
+    margin-left: 255px;
+}

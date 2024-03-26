@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1366px){
+	 section.cww-main-banner .container {
+	 	padding-top: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.container,
+	section.cww-main-banner .container {
+	    padding: 0 45px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+	
+	.cww-site-content {
+		margin-left: 0;
+	}
+	.admin-bar button#mob-toggle-menu-button{
+		top: 30px;
+	}
+	button#mob-toggle-menu-button {
+		position: fixed;
+		top: 0;
+		right: 0;
+	}
+	.cww-menu-outer-wrapp{
+		visibility: visible;
+		opacity: 1;
+	}
+	.cww-nav-container ul li{
+		border: none;
+	}
+	header.site-header{
+		left: -2106px;
+		position: fixed;
+	}
+	header.site-header .main-navigation,
+	header.site-header .site-branding{
+		visibility: hidden;
+		opacity: 0;
+	}
+	header.site-header.is-opened{
+		left: 0;
+		position: fixed;
+		
+	}
+	header.site-header.is-opened .main-navigation,
+	header.site-header.is-opened .site-branding{
+		visibility: visible;
+		opacity: 1;
+	}
+
+}
